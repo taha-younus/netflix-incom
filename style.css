@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(65, 63, 63);
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-image:linear-gradient(to top,rgba(0, 0, 0, 0.616),rgba(0, 0, 0, 0.842)), url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    position: relative;
+    min-height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav img{
+    width: 200px;
+    position: absolute;
+    left: 7%;
+   
+}
+
+.nav .btn-signin{
+    position: absolute;
+    right: 13%;
+    width:80px;
+    text-align: center;
+    padding:5px 6px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 400;
+    text-decoration: 
+    font-size: 13px;
+}
+
+.middle{
+    position: relative;
+    min-height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top: 150px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+
+.sub-heading1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+}
+
+.sub-heading2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.sub-heading{
+    margin-top: 20px;
+}
+
+.input{
+    padding: 15px ;
+}
+.email{
+    padding:15px 8px;
+    border-radius: 5px;
+    background-color: #ffffff44;
+    width: 30%;
+    color: #fff;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.678);
+    text-align: justify;
+    font-size: 15px;
+    font-weight: bold;
+
+
+}
+
+.email::placeholder{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+}
+
+.btn-login{
+    border-radius: 5px;
+    padding:12px 8px;
+    width: 250px;
+    font-size: 24px;
+    font-family: 'Netflix Sans', Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: none;
+    margin-left: 8px;
+}
+
+.click{
+    position: relative;
+    left: -10%;
+}
+
+.input{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 42, 42);
+}
+.fa-chevron-right{
+    color: #fff;
+    position: relative;
+    left: -52px;
+    top: 16px;
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container2{
+    position: relative;
+    min-height: 75vh;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.sub-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+}
+
+.picture{
+    position: relative;
+    width: 450px;
+    left: 173px;
+}
+
+.ads{
+    position: absolute;
+    top: 70px;
+    right: 110px;
+    width: 332px;
+}
+
+.player{
+    height: 20%;
+    flex-basis: 50%;
+    position: relative;
+
+
+}
+
+.creative-text{
+    flex-basis: 50%;
+    position: relative;
+    left: 80px;
+}
